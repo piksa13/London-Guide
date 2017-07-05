@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Primary - purple-->
+    <color name="colorPrimary">#542e54</color>
+    <!--Black-->
+    <color name="colorPrimaryDark">#000000</color>
+    <!--Accent-->
+    <color name="colorBright">#dad0d0</color>
+    <!--Header and description background-->
+    <color name="colorAccent">#332c2e</color>
+    <!--White-->
+    <color name="tagColor">#FFFFFF</color>
+</resources>

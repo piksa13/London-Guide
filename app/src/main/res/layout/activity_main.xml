@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.londonguide.MainActivity">
+
+    <!--Top row-->
+    <LinearLayout
+        style="@style/home_horizontal">
+
+        <!--Hidden Attractions-->
+        <FrameLayout
+            android:id="@+id/hidden_attarctions"
+            style="@style/home_single_tab">
+
+            <ImageView
+                android:src="@drawable/beefeaters"
+                style="@style/home_image" />
+
+            <TextView
+                android:text="@string/hidden_attractions"
+                style="@style/home_tag_category"/>
+        </FrameLayout>
+
+        <!--Experience London 4free-->
+        <FrameLayout
+            android:id="@+id/free_london"
+            style="@style/home_single_tab">
+
+            <ImageView
+                android:src="@drawable/comedy"
+                style="@style/home_image"/>
+
+            <TextView
+                android:text="@string/free_london"
+                style="@style/home_tag_category"/>
+        </FrameLayout>
+    </LinearLayout>
+
+    <!--Bottom row-->
+    <LinearLayout
+        style="@style/home_horizontal">
+
+        <!--Chillax-->
+        <FrameLayout
+            android:id="@+id/chillax"
+            style="@style/home_single_tab">
+
+            <ImageView
+                android:src="@drawable/hampstead"
+                style="@style/home_image"/>
+
+            <TextView
+                android:text="@string/chillax"
+                style="@style/home_tag_category"/>
+        </FrameLayout>
+
+        <!--Best Markets in town-->
+        <FrameLayout
+            android:id="@+id/markets"
+            style="@style/home_single_tab">
+
+            <ImageView
+                android:src="@drawable/spitalfields"
+                style="@style/home_image"/>
+
+            <TextView
+                android:text="@string/markets"
+                style="@style/home_tag_category"/>
+        </FrameLayout>
+    </LinearLayout>
+
+    <!--Bottom tag-->
+    <TextView
+        android:text="@string/bottom_tag"
+        style="@style/home_bottom_tag" />
+</LinearLayout>

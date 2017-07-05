@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<dimen name="list_item_height">96dp</dimen>
+    <dimen name="desc_padding">12dp</dimen>
+    <dimen name="desc_header">36dp</dimen>
+    <dimen name="desc_text">52dp</dimen>
+    <dimen name="home_bottom_padding">10dp</dimen>
+    <dimen name="home_bottom_tag">14sp</dimen>
+    <dimen name="home_tag_padding">8dp</dimen>
+    <dimen name="home_tag">16sp</dimen>
+    <dimen name="home_tab_margin">1dp</dimen>
+</resources>

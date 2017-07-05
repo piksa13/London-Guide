@@ -1,0 +1,98 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Main tabs-->
+    <style name="home_tag_category">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:padding">@dimen/home_tag_padding</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/home_tag</item>
+        <item name="android:textColor">@color/colorBright</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+    </style>
+
+
+    <style name="match_parent">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <!-- Home horizontal tabs-->
+    <style name="home_horizontal" parent="match_parent">
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <!-- Home single tab-->
+    <style name="home_single_tab" parent="match_parent">
+        <item name="android:layout_margin">@dimen/home_tab_margin</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <!-- Home image-->
+    <style name="home_image" parent="match_parent">
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <!-- Home bottom tag-->
+    <style name="home_bottom_tag">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/colorBright</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">@dimen/home_bottom_tag</item>
+        <item name="android:padding">@dimen/home_bottom_padding</item>
+    </style>
+
+    <!--List item image-->
+    <style name="list_item_image">
+        <item name="android:layout_width">@dimen/list_item_height</item>
+        <item name="android:layout_height">@dimen/list_item_height</item>
+        <item name="android:background">@drawable/ic_play_circle_outline_black_24dp</item>
+    </style>
+
+    <!--List item-->
+    <style name="list_item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/list_item_height</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_toRightOf">@id/image</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">@dimen/desc_padding</item>
+    </style>
+
+    <!--List item header-->
+    <style name="list_item_header">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/desc_header</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@color/tagColor</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--List item description-->
+    <style name="list_item_desc">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/desc_text</item>
+        <item name="android:layout_below">@id/header_text_view</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:gravity">top</item>
+        <item name="android:textColor">@color/tagColor</item>
+    </style>
+
+</resources>
